@@ -1,0 +1,2 @@
+# magaldi
+My own portfolio 
