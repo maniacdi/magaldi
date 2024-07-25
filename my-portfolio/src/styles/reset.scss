@@ -1,0 +1,55 @@
+/* Reset CSS usando el selector universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Asegurar que los elementos de bloque tengan el mismo margen */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+/* Asegurar que los elementos de lista no tengan estilos por defecto */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Asegurar que los enlaces no tengan subrayado y el color por defecto */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Asegurar que las imágenes, videos y figuras se ajusten al contenedor */
+img,
+video,
+figure {
+  max-width: 100%;
+  height: auto;
+}
